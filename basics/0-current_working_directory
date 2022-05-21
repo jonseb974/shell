@@ -1,1 +1,3 @@
-#!/bin/bash/ readlink -f basics
+#!/bin/bash/ 
+ 
+readlink -f basics\n
