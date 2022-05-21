@@ -1,2 +1,2 @@
 #!/bin/bash/ 
-readlink -f basics\n
+realpath -e \n
