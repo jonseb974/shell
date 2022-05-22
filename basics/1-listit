@@ -1,2 +1,2 @@
 #!/bin/bash
-ls /etc /n
+du -a /n
