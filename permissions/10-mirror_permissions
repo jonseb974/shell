@@ -1,2 +1,2 @@
 #!/bin/bash
-chown 354 olleh
+chgrp --reference=hello olleh
