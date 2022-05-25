@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp --reference=olleh hello
+chgrp --reference=hello olleh
