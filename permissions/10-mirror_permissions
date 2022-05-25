@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --reference=olleh hello
+cp olleh hello
