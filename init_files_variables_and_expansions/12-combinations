@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..Z} | tr '\n' | tr -do
+echo {a..Z} | tr '\n' | tr -d "o"
