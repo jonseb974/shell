@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #repeat 10 times 'Best School'
 
-for (( i=0; i<11; i++ ))
+for (( i=0; i<9; i++ ))
 do
 	echo "Best School"
 done
