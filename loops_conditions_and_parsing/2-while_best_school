@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # while loop prints 10 time'Best school'
 count=0
-while count<10
+while [count<10]
 do
-	print "Best School"
+	echo "Best School"
 	count= count+1
 done
