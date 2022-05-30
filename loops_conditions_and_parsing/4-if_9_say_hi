@@ -11,5 +11,4 @@ do
 		echo"Hi"
 		echo"Best School"
 	fi
-	((a++))
 done
