@@ -2,8 +2,8 @@
 # while loop prints 10 time'Best school'
 a=0
 
-while  [ $a -lt 10 ]
+while  [ $a -le 9 ]
 do
-	echo Best School
-	a= `expr $a + 1`
+	echo Best $c School
+	(( a++ ))
 done
