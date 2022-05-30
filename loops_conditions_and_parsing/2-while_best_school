@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+# this while loop prints 10 time'Best school'
+while !$finished; do
+echo "Best School"
+done
