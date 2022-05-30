@@ -18,7 +18,6 @@ do
 			;;
 		*)
 			echo "$i"
-			echo "Best School"
 			;;
 	esac
 	((i++))
