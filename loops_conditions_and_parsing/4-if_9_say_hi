@@ -3,4 +3,12 @@
 a= 0
 while [ #a -lt 10 ]
 do 
-
+	echo"Best School"
+	
+	if [ $a -eq 9 ]
+	then
+		echo"Hi"
+		echo"Best School"
+	fi
+	a=`expr $a + 1`
+done
