@@ -1,4 +1,4 @@
-#!/usr/binen/env bash
+#!/usr/bin/env bash
 # while loop prints 10 time'Best school'
 count=0
 while count<10
