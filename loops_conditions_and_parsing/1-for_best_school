@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+repeat 10 times 'Best School'
