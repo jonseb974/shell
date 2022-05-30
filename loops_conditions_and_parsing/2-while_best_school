@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # while loop prints 10 time'Best school'
-count=0
-while  ((count -lt 10))
+a=0
+
+while  [ $a -lt 10 ]
 do
-	echo "Best School"
-	count= expr $count + 1
+	echo Best School
+	a= `expr $a + 1`
 done
