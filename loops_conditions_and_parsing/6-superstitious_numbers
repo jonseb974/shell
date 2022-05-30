@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#while case condition
+i=0
+while [ $i -eq 21 ]
