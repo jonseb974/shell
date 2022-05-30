@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #while case condition
-i=0
+i=1
 while [ $i -eq 21 ]
 do 
 	case $i in
