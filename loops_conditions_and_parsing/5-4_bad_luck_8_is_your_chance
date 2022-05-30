@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# while loop with if elif conditions
+i=0
+while [ $i -lt 10 ]
+do
+
+
