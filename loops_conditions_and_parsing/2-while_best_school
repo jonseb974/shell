@@ -4,6 +4,6 @@ a=0
 
 while  [ $a -le 9 ]
 do
-	echo Best $c School
+	echo Best School
 	(( a++ ))
 done
