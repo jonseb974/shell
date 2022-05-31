@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 #display content of current dir.in list
+for f in *
+do
+	echo "$i" | cut -d '-' 
+done
 
