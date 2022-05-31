@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#display content of etc/passwd
+
+cat /etc/passwd | while read LREAD
+do
+    echo ${LREAD}
+done
