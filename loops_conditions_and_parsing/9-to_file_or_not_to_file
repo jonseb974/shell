@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # give info about file school
+File=school file
 if [ -f $"File" ]; then
 	echo $"school file exists"
 	if 
