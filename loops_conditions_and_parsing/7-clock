@@ -4,11 +4,11 @@ m=0
 
 while [ $m -lt 60 ]
 do
-       echo "hours: $m"
+       echo "$m"
        ((m++)) 
        while [ $m -lt 13 ]
        do
-	       echo "$m"
+	       echo "hours:$m"
 	       ((m++))
        done
 done
