@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #display content of current dir.in list
-for i in *; do
-	echo "$i"  | cut -d '_' -f 
+for i in *
+do
+	echo "$i" | cut  -d '_' -f
 done
 
