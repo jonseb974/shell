@@ -2,6 +2,6 @@
 #display content of current dir.in list
 for i in *
 do
-	echo "$i" | cut  -d '_' -f2
+	echo "$i" | cut  -d '_' -f1,2
 done
 
