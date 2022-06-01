@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #while case condition
 i=1
-while [ $i -eq 20 ]
+while [ $i -le 20 ]
 do 
 	case $i in
 		4)
@@ -16,9 +16,6 @@ do
 			echo "$i"
 			echo "bad luck from Italy"
 			;;
-		*)
-			echo "$i"
-		        ;;
 	esac
 	((i++))
 done
