@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #display the time for 12 hoursm 59 minutes
-m=0
+hour=0
 
-while [ $m -lt 60 ]
+while [ $hour -le 60 ]
 do
-       echo "$m"
+       echo "$hour:"$hour
        ((m++)) 
-       while [ $m -lt 13 ]
+       while [ $hour -lt 13 ]
        do
-	       echo "$m"
+	       echo "$hour"
 	       ((m++))
        done
 done
