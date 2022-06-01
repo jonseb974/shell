@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#display pid processe name and bash word
 echo "$$ bash"
