@@ -10,10 +10,8 @@ do
        do
 	       echo "$minute"
 	       ((minute++))
+	       echo "$hour"
+	       ((hour++))
        done
-       echo "$hour"
-       ((hour++))
 done
-
-
 
