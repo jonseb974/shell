@@ -16,6 +16,9 @@ do
 			echo "$i"
 			echo "bad luck from Italy"
 			;;
+		*)
+			echo "$i"
+			;;
 	esac
 	((i++))
 done
