@@ -4,7 +4,5 @@ n='To infinity and beyond'
 while true; do
 	echo "$n"
 	sleep 2
-	if (( $kill -SIGTERM 7510 )); then
 	echo "I am invicible!!!"
-	fi
 done
