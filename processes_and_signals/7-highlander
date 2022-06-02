@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #print I am invicible!!! when SIGTERM
 i=0
-while [$i -eq 1]
+while ["$kill -SIGHTERM 7510"]
 do
 	echo "I am invicible!!!"
+	(($i++))
 done
