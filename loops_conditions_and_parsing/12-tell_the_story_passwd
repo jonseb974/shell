@@ -1,6 +1,9 @@
 #!/usr/bin/usr bash
 #display a story
+
+input="/etc/passwd"
+
 while IFS=: read -r LINE
 do
 echo "$LINE' | cut -d ":"
-done
+done < "$input"
