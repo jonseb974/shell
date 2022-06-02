@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #print I am invicible!!! when SIGTERM
-i=0
-while [ "$kill -SIGHTERM 7510" ]
-do
+n='To infinity and beyond'
+while true; do
+	echo "$n"
+	sleep 2
 	echo "I am invicible!!!"
-	(($i++))
 done
