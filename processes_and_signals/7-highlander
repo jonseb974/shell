@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+#print I am invicible!!! when SIGTERM
