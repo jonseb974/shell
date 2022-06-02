@@ -4,5 +4,5 @@ n='To infinity and beyond'
 while true; do
 	echo "$n"
 	sleep 2
-	trap "echo I am invicible!!!" SIGTERM
+	trap 'echo "I am invicible!!!"' SIGTERM
 done
