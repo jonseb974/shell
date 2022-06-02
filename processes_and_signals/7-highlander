@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 #print I am invicible!!! when SIGTERM
-n='To infinity and beyond'
-while true; do
-	echo "$n"
+
+while true
+do
+	echo "To infinity and beyond"
 	sleep 2
+
 	trap 'echo "I am invicible!!!"' SIGTERM
 done
