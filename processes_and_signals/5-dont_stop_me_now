@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #stop previous task
 i="$(4-to_infinity_and_beyond)"
-kill $( pgrep -f "$i" )
+kill $(pgrep -f "$i")
 
