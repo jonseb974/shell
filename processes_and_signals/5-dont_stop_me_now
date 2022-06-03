@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 #stop previous task
-sudo kill "$(4-to_infinity_and_beyond)" 
+i = pgrep "$(4-to_infinity_and_beyond)"
+kill -d "$i"
+
