@@ -7,7 +7,7 @@
 
 #create a file
 sudo touch /var/run/myscript.pid
-echo $$ > x_files.pid #echo the pid
+echo $$ > /var/run/myscript.pid #echo the pid
 
 # infinite while loop
 
